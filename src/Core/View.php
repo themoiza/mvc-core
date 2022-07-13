@@ -6,7 +6,7 @@ class View{
 
 	static function load(string $view, array $vars = []) :string{
 
-		$view = file_get_contents(__DIR__.'/../views/'.$view.'.html');
+		$view = file_get_contents('../App/Views/'.$view.'.html');
 
 		$subs = [];
 		foreach($vars as $var => $string){
