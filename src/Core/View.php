@@ -1,6 +1,6 @@
 <?php
 
-namespace Core;
+namespace TheMoiza\MvcCore\Core;
 
 class View{
 
