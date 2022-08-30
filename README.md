@@ -11,7 +11,7 @@ This MVC is an alternative for very simple applications, if you not want use lar
 composer require the.moiza/mvc-core
 ```
 
-## get a exemple
+## get a example
 ```
 composer require the.moiza/mvc
 ```
