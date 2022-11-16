@@ -17,6 +17,6 @@ class Response{
 
 		header('Content-Type: application/json;charset=utf-8');
 
-		echo json_encode($array);
+		echo utf8_encode(json_encode($array));
 	}
 }
